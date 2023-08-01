@@ -1,0 +1,88 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: orange;
+}
+
+.container {
+  height: 25rem;
+  width: 25rem;
+  /* border: 2px solid black; */
+  margin: auto;
+  margin-top: 8rem;
+  border-radius: 50%;
+  box-shadow: 15px 15px 30px #665800, 15px 15px 30px #000;
+}
+
+.clock {
+  height: 20rem;
+  width: 20rem;
+  border: 2px solid black;
+  background-image: url("/img/pngtree-watch-clock-numbers-vector-and-transparent-image-donwload-png-image_6263690.png");
+  position: absolute;
+  transform: translate(11%, 11%);
+  box-shadow: inset 15px 15px 30px #665800;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hr {
+  width: 7rem;
+  height: 7rem;
+}
+.min {
+  width: 10rem;
+  height: 10rem;
+}
+.sec {
+  width: 15rem;
+  height: 15rem;
+}
+
+.hr,
+.min,
+.sec {
+  /* border: 2px solid black; */
+
+  position: absolute;
+  display: flex;
+  justify-content: center;
+}
+
+.clock::before {
+  content: "";
+  height: 0.4rem;
+  width: 0.4rem;
+  background: #000;
+  border-radius: 50%;
+}
+
+.hr::before {
+  content: "";
+  position: absolute;
+  background: #000;
+  width: 0.4rem;
+  height: 4rem;
+  z-index: 1;
+  border-radius: 50%;
+}
+.min::before {
+  content: "";
+  position: absolute;
+  background: #000;
+  width: 0.3rem;
+  height: 5rem;
+  z-index: 2;
+  border-radius: 50%;
+}
+.sec::before {
+  content: "";
+  position: absolute;
+  background: #000;
+  width: 0.2rem;
+  height: 9rem;
+  z-index: 4;
+  border-radius: 50%;
+}
