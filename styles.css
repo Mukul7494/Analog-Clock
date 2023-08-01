@@ -5,8 +5,8 @@ body {
 }
 
 .container {
-  height: 25rem;
-  width: 25rem;
+  height: 20rem;
+  width: 20rem;
   position: absolute;
   transform: translate(-50%, -50%);
   left: 50%;
@@ -16,10 +16,11 @@ body {
 }
 
 .clock {
-  height: 20rem;
-  width: 20rem;
+  height: 15rem;
+  width: 15rem;
   border: 2px solid black;
   background-image: url("./img/pngtree-watch-clock-numbers-vector-and-transparent-image-donwload-png-image_6263690.png");
+  background-size: cover;
   position: absolute;
   transform: translate(-50%, -50%);
   left: 50%;
@@ -33,15 +34,15 @@ body {
 
 .hr {
   width: 7rem;
-  height: 7rem;
+  height: 6rem;
 }
 .min {
   width: 10rem;
-  height: 10rem;
+  height: 7rem;
 }
 .sec {
   width: 15rem;
-  height: 15rem;
+  height: 10rem;
 }
 
 .hr,
@@ -67,7 +68,7 @@ body {
   position: absolute;
   background: #000;
   width: 0.4rem;
-  height: 4rem;
+  height: 3rem;
   z-index: 1;
   border-radius: 50%;
 }
@@ -76,7 +77,7 @@ body {
   position: absolute;
   background: #000;
   width: 0.3rem;
-  height: 5rem;
+  height: 4rem;
   z-index: 2;
   border-radius: 50%;
 }
@@ -85,7 +86,7 @@ body {
   position: absolute;
   background: #000;
   width: 0.2rem;
-  height: 9rem;
+  height: 6rem;
   z-index: 4;
   border-radius: 50%;
 }
