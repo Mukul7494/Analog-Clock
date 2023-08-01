@@ -18,7 +18,7 @@ body {
   height: 20rem;
   width: 20rem;
   border: 2px solid black;
-  background-image: url("/img/pngtree-watch-clock-numbers-vector-and-transparent-image-donwload-png-image_6263690.png");
+  background-image: url("./img/pngtree-watch-clock-numbers-vector-and-transparent-image-donwload-png-image_6263690.png");
   position: absolute;
   transform: translate(11%, 11%);
   box-shadow: inset 15px 15px 30px #665800;
